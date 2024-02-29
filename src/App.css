@@ -1,0 +1,52 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.container {
+  padding: 2rem
+}
+
+.textImg {
+  font-size: small;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.textImg2 {
+  font-size: small;
+  text-align: center;
+}
+
+.titleBook {
+  margin: 0;
+}
+
+.subTitleBook {
+  font-size: small;
+  margin: 0;
+}
+
+.textBook {
+  font-size: 15px;
+}
+
+.cardbook {
+  padding: 5px;
+  background-color: #dedede;
+  width: 300px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.bookimg {
+  height: 30vw;
+  transition-duration: 1s;
+}
+
+.bookimg:hover {
+  height: 35vw;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition-duration: 1s;
+}
